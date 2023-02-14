@@ -1,0 +1,93 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employees": [
+    {
+      "firstName": "Blessing",
+      "lastname": "Letsoalo",
+      "email": "Blessing@gmail.com",
+      "dob": "2023-02-04T22:00:00.000Z",
+      "gender": "male",
+      "education": "Intermediate",
+      "company": "Google",
+      "experience": 2,
+      "package": "400",
+      "id": 1
+    },
+    {
+      "firstName": "John",
+      "lastname": "Smith",
+      "email": "Smith@gmail.com",
+      "dob": "2004-02-04T22:00:00.000Z",
+      "gender": "male",
+      "education": "Intermediate",
+      "company": "ABSA",
+      "experience": 2,
+      "package": "30",
+      "id": 2
+    },
+    {
+      "firstName": "Thabiso",
+      "lastname": "Gamede",
+      "email": "Thabs@gmail.com",
+      "dob": "2023-02-13T22:00:00.000Z",
+      "gender": "male",
+      "education": "Post Graduate",
+      "company": "DSTV",
+      "experience": 1,
+      "package": "70",
+      "id": 3
+    },
+    {
+      "firstName": "Luthando",
+      "lastname": "Nkosi",
+      "email": "thando@gmail.com",
+      "dob": "2016-12-24T22:00:00.000Z",
+      "gender": "female",
+      "education": "Post Graduate",
+      "company": "MTN",
+      "experience": 4,
+      "package": "90",
+      "id": 4
+    },
+    {
+      "firstName": "Thando",
+      "lastname": "Khubayi",
+      "email": "TKhubayi@gmail.com",
+      "dob": "1997-10-13T22:00:00.000Z",
+      "gender": "female",
+      "education": "Post Graduate",
+      "company": "MTN",
+      "experience": 8,
+      "package": "600",
+      "id": 5
+    },
+    {
+      "firstName": "Glenda",
+      "lastname": "Maputla",
+      "email": "MGlenda@gmail.com",
+      "dob": "2017-06-12T22:00:00.000Z",
+      "gender": "male",
+      "education": "Post Graduate",
+      "company": "FX Traders",
+      "experience": 4,
+      "package": "754",
+      "id": 6
+    }
+  ]
+}

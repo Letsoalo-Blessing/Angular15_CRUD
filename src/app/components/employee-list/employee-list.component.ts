@@ -3,17 +3,19 @@ import { MatDialog } from '@angular/material/dialog';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
-import { AddEditComponent } from './components/add-edit/add-edit.component';
-import { CoreService } from './services/core.service';
-import { EmployeeService } from './services/employee.service';
+import { CoreService } from 'src/app/services/core.service';
+import { EmployeeService } from 'src/app/services/employee.service';
+import { AddEditComponent } from '../add-edit/add-edit.component';
+
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  selector: 'app-employee-list',
+  templateUrl: './employee-list.component.html',
+  styleUrls: ['./employee-list.component.scss']
 })
-export class AppComponent implements OnInit {
+export class EmployeeListComponent implements OnInit {
 
+ 
   displayedColumns: string[] =
     ['id',
       'firstName',
