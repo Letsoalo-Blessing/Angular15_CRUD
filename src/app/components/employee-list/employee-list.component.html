@@ -1,4 +1,12 @@
+
 <div class="main-body">
+
+    <mat-toolbar >
+        <button mat-raised-button (click)="openAddEditEmpForm()" class="add-button">
+            ADD EMPLOYEE
+          </button>
+      </mat-toolbar>
+
     <mat-form-field appearance="standard">
         <mat-label>Filter</mat-label>
         <input matInput (keyup)="applyFilter($event)" placeholder="Ex. Mia" #input>
